@@ -39,7 +39,15 @@
     h2{margin:10px 0 8px; font-size:1.2rem; color:#b7efff}
     ul{margin:6px 0 14px 20px}
     li{margin:6px 0}
-    .btns{display:flex; flex-wrap:wrap; gap:12px; margin:18px 0}
+    .btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* centers the buttons horizontally */
+  align-items: center;       /* aligns vertically if multiple lines */
+  gap: 12px;
+  margin: 18px 0;
+  text-align: center;
+}
     .btn{
       display:inline-block; padding:10px 16px; font-weight:700; text-decoration:none; color:#fff;
       background:linear-gradient(90deg, var(--accent1), var(--accent2));
