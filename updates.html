@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🆕 Gotcha — Updates & Patch Notes</title>
+  <link rel="icon" type="image/png" href="https://rubcarreno-dot.github.io/icon.png">
+  <meta name="description" content="Latest updates and patch notes for Gotcha."/>
+  <meta property="og:title" content="Gotcha — Updates & Patch Notes">
+  <meta property="og:description" content="Latest updates and patch notes for Gotcha.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rubcarreno-dot.github.io/updates.html">
+
+  <style>
+    :root{
+      --bg1:#0a0520; --bg2:#090f2f; --text:#e2e8f0; --muted:#94a3b8;
+      --accent1:#00c6ff; --accent2:#0072ff; --card:#111633; --ring:#00e0ff66;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;
+      color:var(--text); background:radial-gradient(circle at 30% 30%, var(--bg1), var(--bg2) 80%);
+      line-height:1.6; overflow-x:hidden;
+    }
+    header{padding:48px 16px 24px; text-align:center; position:relative}
+    h1{margin:0 0 8px; font-size:2.2rem; color:#7ee6ff; text-shadow:0 0 12px var(--accent1)}
+    .subtitle{color:var(--muted); margin:0 auto; max-width:720px}
+    .wrap{max-width:900px; margin:24px auto 64px; padding:0 16px}
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:16px; padding:20px 18px; margin:16px 0; backdrop-filter: blur(4px);
+      box-shadow:0 0 0 1px #ffffff0d, 0 8px 24px #00000040;
+    }
+    .ver-head{display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-bottom:6px}
+    .tag{display:inline-flex; align-items:center; gap:6px; padding:6px 10px; border-radius:999px;
+      background:linear-gradient(90deg, var(--accent1), var(--accent2)); color:#fff; font-weight:700; font-size:0.9rem}
+    .date{color:var(--muted); font-size:0.95rem}
+    h2{margin:10px 0 8px; font-size:1.2rem; color:#b7efff}
+    ul{margin:6px 0 14px 20px}
+    li{margin:6px 0}
+    .btns{display:flex; flex-wrap:wrap; gap:12px; margin:18px 0}
+    .btn{
+      display:inline-block; padding:10px 16px; font-weight:700; text-decoration:none; color:#fff;
+      background:linear-gradient(90deg, var(--accent1), var(--accent2));
+      border-radius:12px; box-shadow:0 0 12px #00c6ff80; transition:transform .2s, box-shadow .2s
+    }
+    .btn:hover{transform:translateY(-2px); box-shadow:0 0 16px var(--ring)}
+    footer{color:var(--muted); text-align:center; padding:32px 16px 48px}
+    /* soft particles for vibe */
+    .p{position:fixed; inset:auto; width:10px; height:10px; border-radius:50%; background:#00ffff33;
+      box-shadow:0 0 14px #00ffff80; animation:float 10s ease-in-out infinite; pointer-events:none}
+    .p.a{top:12%; left:18%; animation-delay:0s}
+    .p.b{top:56%; left:78%; width:8px; height:8px; animation-delay:2s}
+    .p.c{top:82%; left:52%; width:6px; height:6px; animation-delay:4s}
+    @keyframes float{
+      0%{transform:translateY(0) scale(1); opacity:.8}
+      50%{transform:translateY(-36px) scale(1.2); opacity:1}
+      100%{transform:translateY(0) scale(1); opacity:.8}
+    }
+    .hr{height:1px; background:linear-gradient(90deg, transparent, #ffffff22, transparent); margin:20px 0}
+  </style>
+</head>
+<body>
+  <div class="p a"></div><div class="p b"></div><div class="p c"></div>
+
+  <header>
+    <h1>🆕 Gotcha — Updates & Patch Notes</h1>
+    <p class="subtitle">Follow the latest improvements, balance changes, and new features. Bookmark this page and check back often!</p>
+    <div class="btns">
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.gotcha.console.app" target="_blank">📲 View on Google Play</a>
+      <a class="btn" href="https://discord.gg/YOUR_INVITE_CODE" target="_blank">💬 Join our Discord</a>
+      <a class="btn" href="https://rubcarreno-dot.github.io/politicadeprivacidadgotcha/" target="_blank">🔒 Privacy Policy</a>
+      <a class="btn" href="https://rubcarreno-dot.github.io" target="_blank">🏠 Main Page</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- VERSION 1.2.1 -->
+    <article class="card" id="v121">
+      <div class="ver-head">
+        <span class="tag">Version 1.2.1</span>
+        <span class="date">10 Nov 2025</span>
+      </div>
+
+      <h2>🧬 Affinity System & Skill Tree Expansion</h2>
+      <h3>🌿 Affinity System</h3>
+      <ul>
+        <li>Earn <strong>Affinity Hearts</strong> by keeping a Gotcha equipped for <strong>24 consecutive hours</strong>.</li>
+        <li>Spend hearts in the new <strong>Affinity Tree</strong> to unlock permanent stat boosts and strengthen your bond with each Gotcha.</li>
+      </ul>
+
+      <h3>⚔️ Skill Tree Overhaul</h3>
+      <ul>
+        <li>A fully functional <strong>Skill Tree</strong> has been added.</li>
+        <li>Use earned affinity points to upgrade <em>Strength</em>, <em>Defense</em>, <em>Agility</em>, <em>Dexterity</em>, <em>Health</em>, and chance-based perks like <em>bonus Pixel drops</em> or <em>Legendary Loot Discovery</em>.</li>
+        <li>Customize every Gotcha’s growth path and create <strong>unique builds</strong>.</li>
+      </ul>
+
+      <h3>🧩 Gotcha Deploy Quantity Selector</h3>
+      <ul>
+        <li>Deploying Gotchas to patrol is now easier than ever.</li>
+        <li>Choose exactly how many Gotchas to send at once, streamlining team management—perfect for large collections.</li>
+      </ul>
+
+      <h3>⚙️ Additional Improvements</h3>
+      <ul>
+        <li>Optimized menu layout for a smoother gameplay experience.</li>
+        <li>Minor bug fixes and overall performance enhancements.</li>
+      </ul>
+
+      <div class="hr"></div>
+      <p style="color:#b5ddff">Tip: Link this page from your in-game “News/Updates” panel so players can always check what’s new.</p>
+    </article>
+
+    <!-- TEMPLATE for future versions -->
+    <article class="card" id="template" aria-hidden="true">
+      <div class="ver-head">
+        <span class="tag">Version X.Y.Z</span>
+        <span class="date">DD Mon YYYY</span>
+      </div>
+      <h2>✨ Headline</h2>
+      <ul>
+        <li>Bullet 1</li>
+        <li>Bullet 2</li>
+      </ul>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>Developed by <strong>RubCarreno</strong> — Milestone Artwork © 2025</p>
+  </footer>
+</body>
+</html>
